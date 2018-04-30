@@ -82,29 +82,29 @@ as described in class.
 
 **INPUT**
 
-int sub(int x)
-{
-   return(x+x);
-}
-void main(void)
-{
-  int x;
-  int y;
-  y = sub(x);
-}
+    int sub(int x)
+    {
+       return(x+x);
+    }
+    void main(void)
+    {
+      int x;
+      int y;
+      y = sub(x);
+    }
 
 **OUTPUT**
 
-1         func           sub            int            2
-2         param
-3         alloc          4                             x
-4         add            x              x              _t0
-5         return                                       _t0
-6         end            func           sub
-7         func           main           void           0
-8         alloc          4                             x
-9         alloc          4                             y
-10        arg                                          x
-11        call           sub            1              _t1
-12        assign         _t1                           y
-13        end            func           main
+    1         func           sub            int            2
+    2         param
+    3         alloc          4                             x
+    4         add            x              x              _t0
+    5         return                                       _t0
+    6         end            func           sub
+    7         func           main           void           0
+    8         alloc          4                             x
+    9         alloc          4                             y
+    10        arg                                          x
+    11        call           sub            1              _t1
+    12        assign         _t1                           y
+    13        end            func           main
