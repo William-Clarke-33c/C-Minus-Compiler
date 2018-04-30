@@ -23,7 +23,7 @@ and any other modifications necessary must be included.
 @author William Clarke, n00935124
  */
 
-public class CompilerProject2 {
+public class project2 {
     
     public static int index = 0;
     public static String status;
